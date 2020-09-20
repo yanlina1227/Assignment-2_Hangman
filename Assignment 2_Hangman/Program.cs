@@ -11,7 +11,7 @@ namespace Assignment_2_Hangman
 
             static string secretWords()
             {
-                Random wordNumber = new Random();
+                Random char = new Random();
                 char[] chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
                 secretWord = Random.chars[];
 
